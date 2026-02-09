@@ -1,0 +1,12 @@
+=== RUN   TestValidate_IssueZeroValue
+--- PASS: TestValidate_IssueZeroValue (0.00s)
+=== RUN   TestValidate_Map
+--- PASS: TestValidate_Map (0.00s)
+=== RUN   TestValidate_DoesNotExist
+    repro_test.go:58: Expected error caught: field Value does not exist in struct
+    repro_test.go:66: Expected error caught: field Value does not exist in map
+--- PASS: TestValidate_DoesNotExist (0.00s)
+=== RUN   TestValidate_RequiredStillWorks
+--- PASS: TestValidate_RequiredStillWorks (0.00s)
+PASS
+ok  	github.com/dev-star-company/custom-validate/validate	0.645s
